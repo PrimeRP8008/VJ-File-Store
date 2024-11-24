@@ -22,7 +22,7 @@ API_ID = int(environ.get("API_ID", "28421635"))
 API_HASH = environ.get("API_HASH", "a4856de5fec0b9b3601ff06425f3f58e")
 BOT_TOKEN = environ.get("BOT_TOKEN", "8190499501:AAE-v7loQB9azsS2DWI4lxDV4KKQ5swwc90")
 
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://ibb.co/KXRZNp1')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6657660775').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "PediaStorexRobot") # without @
 PORT = environ.get("PORT", "8080")
